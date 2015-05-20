@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Finite Visualization Test Suite">
+            <directory>tests/FiniteGraphviz/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/FiniteGraphviz/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
